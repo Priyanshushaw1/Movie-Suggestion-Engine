@@ -96,3 +96,36 @@ header {
     transform: scale(1.05); /* Slightly increase size on hover */
 }
 
+
+
+.scroll-buttons {
+    position: relative;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.scroll-button.left {
+    left: 10px;
+}
+
+.scroll-button.right {
+    right: 10px;
+}
+
+.scroll-button:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+
