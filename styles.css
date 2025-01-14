@@ -129,3 +129,8 @@ header {
 }
 
 
+.body-container {
+    justify-items: left;
+    box-sizing: 100%
+}
+
